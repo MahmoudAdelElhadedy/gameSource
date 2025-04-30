@@ -68,7 +68,7 @@ export const useArticleStore = defineStore('article', {
 
                 return docRef.data()
             } catch (error) {
-                console.log(error.message)
+
                 router.push({ name: '404' })
             }
         },

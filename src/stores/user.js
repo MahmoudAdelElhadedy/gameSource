@@ -52,7 +52,7 @@ export const useUserStore = defineStore('user', {
                 $toast.success('Updated !!!')
                 return true;
             } catch (error) {
-                console.log(error)
+
                 $toast.error(error.message)
             }
         },
